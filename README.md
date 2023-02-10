@@ -1,8 +1,8 @@
-## Unit Converter
+# Unit Converter
 
 A simple application that converts between metric and imperial units and vice versa. Built with HTML, CSS, and JavaScript.
 
-# Features
+## Features
 
 Convert between metric and imperial units for:
 Length
@@ -11,7 +11,7 @@ Volume
 Easy-to-use interface with clear input and output fields
 Automatic unit conversion as you type
 
-# Usage
+## Usage
 
 Open the file index.html in your web browser
 Select the type of conversion you want to make (length, mass, or volume)

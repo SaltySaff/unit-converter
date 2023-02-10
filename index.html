@@ -4,15 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Unit Converter</title>
 </head>
 <body>
-    <input id="convert-num" type="text">
-    <button id="convert-btn">Convert</button>
-    <div id="meters-feet"></div>
-    <div id="liters-gallons"></div>
-    <div id="kilos-pounds"></div>
+    <main>
+        <div id="converter-wrapper">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="convert-num" type="text">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="measurement-wrapper">
+            <div class="unit-wrapper">
+                <div id="meters-feet-wrapper">
+                    <h3 class="unit-title">Length (Meters/Feet)</h3>
+                    <p class="unit-text" id="meters-feet-text"></p>
+                </div>
+            </div>
+            <div class="unit-wrapper">
+                <div id="liters-gallons-wrapper">
+                    <div class="unit-title">Volume (Liters/Gallons)</div>
+                    <p class="unit-text" id="liters-gallons-text"></p>
+                </div>
+            </div>
+            <div class="unit-wrapper">
+                <div id="kilos-pounds-wrapper">
+                    <div class="unit-title">Mass (Kilograms/Pounds)</div>
+                    <p class="unit-text text" id="kilos-pounds"></p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

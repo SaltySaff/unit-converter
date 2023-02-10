@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <title>Unit Converter</title>
 </head>
 <body>
@@ -16,29 +19,23 @@
             <button id="convert-btn">Convert</button>
         </div>
         <div id="measurement-wrapper">
-            <div class="unit-wrapper">
-                <div id="meters-feet-wrapper">
-                    <h3 class="unit-title">Length (Meters/Feet)</h3>
-                    <p class="unit-text" id="meters-feet-text">
-                        0 meters = 0.000 feet | 0 feet = 0.000 meters
-                    </p>
-                </div>
+            <div class="unit-wrapper" id="meters-feet-wrapper">
+                <h3 class="unit-title">Length (Meters/Feet)</h3>
+                <p class="unit-text" id="meters-feet-text">
+                    0 meters = 0.000 feet | 0 feet = 0.000 meters
+                </p>
             </div>
-            <div class="unit-wrapper">
-                <div id="liters-gallons-wrapper">
-                    <h3 class="unit-title">Volume (Liters/Gallons)</h3>
-                    <p class="unit-text" id="liters-gallons-text">
-                        0 liters = 0.000 gallons | 0 gallons = 0.000 liters
-                    </p>
-                </div>
+            <div class="unit-wrapper" id="liters-gallons-wrapper">
+                <h3 class="unit-title">Volume (Liters/Gallons)</h3>
+                <p class="unit-text" id="liters-gallons-text">
+                    0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+                </p>
             </div>
-            <div class="unit-wrapper">
-                <div id="kilos-pounds-wrapper">
-                    <h3 class="unit-title">Mass (Kilograms/Pounds)</h3>
-                    <p class="unit-text text" id="kilos-pounds-text">
-                        0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
-                    </p>
-                </div>
+            <div class="unit-wrapper" id="kilos-pounds-wrapper">
+                <h3 class="unit-title">Mass (Kilograms/Pounds)</h3>
+                <p class="unit-text text" id="kilos-pounds-text">
+                    0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+                </p>
             </div>
         </div>
     </main>

@@ -1,9 +1,9 @@
 const convertNumEl = document.getElementById("convert-num")
 const convertBtn = document.getElementById("convert-btn")
 
-const metersFeetEl = document.getElementById("meters-feet")
-const litersGallonsEl = document.getElementById("liters-gallons")
-const kilosPoundsEl = document.getElementById("kilos-pounds")
+const metersFeetEl = document.getElementById("meters-feet-text")
+const litersGallonsEl = document.getElementById("liters-gallons-text")
+const kilosPoundsEl = document.getElementById("kilos-pounds-text")
 
 function convertMetersFeet(num) {
     meters = (num / 3.281).toFixed(3)
@@ -31,9 +31,9 @@ convertBtn.addEventListener("click", function() {
         ${convertNum} meters = ${metersFeet[0]} feet | ${convertNum} feet = ${metersFeet[1]} meters
     `
     litersGallonsEl.textContent = `
-        ${convertNum} litres = ${litresGallons[0]} litres | ${convertNum} gallons = ${litresGallons [1]} meters
+        ${convertNum} liters = ${litresGallons[0]} gallons | ${convertNum} gallons = ${litresGallons [1]} liters
     `
     kilosPoundsEl.textContent = `
-        ${convertNum} kilograms = ${kilosPounds[0]} pounds | ${convertNum} pounds = ${metersFeet[1]} kilograms
+        ${convertNum} kilos = ${kilosPounds[0]} pounds | ${convertNum} pounds = ${metersFeet[1]} kilos
     `
 })

@@ -1,4 +1,4 @@
-# Simple Unit Converter
+Unit Converter
 
 A simple application that converts between metric and imperial units and vice versa. Built with HTML, CSS, and JavaScript.
 
